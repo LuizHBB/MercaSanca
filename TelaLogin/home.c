@@ -15,6 +15,11 @@ FILE *file;
 }func;
 
 void login(){
+    file = fopen("teste.txt", "r");
+    if(file==NULL){
+        printf("\\nNao ha dados cadastrados!!");
+    }
+
 
 }
 
